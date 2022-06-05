@@ -1,5 +1,7 @@
 .appDiv{
-    background-color: #161616;
+    background-image: linear-gradient(#122c64, #050224);
+    width: 110vw;
+    height: 300vw;
 }
 
 .sc-dkQkyq{
@@ -7,11 +9,11 @@
     font-weight: bold;
 }
 .cqVapy{
-    border-bottom: 2px solid #E50914 !important;
+    border-bottom: 2px solid #c4c7f5 !important;
 }
 
 .sc-JkixQ {
-    margin-left: 160px;
+    margin-left: 120px;
     position: fixed;
     z-index: 2;
 }
@@ -21,18 +23,18 @@
 }
 
 .sc-dVNjXY {
-    background-color: #161616 !important;
-    margin-top:30px;
+    background-color: #07052c !important;
+    margin-top: 20px;
 }
 
 .sc-bQtKYq {
-    padding: 0px !important;
+    padding: 5px !important;
 }
 
 .sc-egiyK {
     z-index: 1 !important;
-    font-size: calc(100vw * 0.012) !important;
-    padding:calc(100vw * 0.002) calc(100vw * 0.008) !important;
+    font-size: 12px !important;
+    padding:5px !important;
 }
 
 .sc-FNXRL {

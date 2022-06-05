@@ -8,18 +8,21 @@
   padding-top: 20px;
 }
 
-.logo {
+.logo1 {
   position: fixed;
   padding: 20px;
+  padding-bottom: 50px;
   width: 100vw;
-  background-color: #161616;
+  background-color: #090841;
   z-index: 2;
 }
 
 .connect {
   position: fixed;
-  right:0;
-  padding: 15px;
+  right:10px;
+  top: 72px;
+  padding: 0px;
+  padding-top: 0px;
   z-index: 3;
   display: flex;
   gap:15px;
@@ -27,58 +30,70 @@
 
 .scene {
   width: 100vw;
-  height: calc(100vw * 0.5);
-  color: white;
+ 
 }
 
 .sceneImg {
-  width: 100vw;
+  width: 110vw;
   position:relative;
-  top:0px;
+  top:60px;
 }
 
-.sceneLogo {
-  position: relative;
-  bottom: calc(100vw * 0.56);
-  left: 5vw;
-  width: 25vw;
-}
+
 
 .sceneDesc {
   position: relative;
-  bottom: calc(100vw * 0.56);
+  bottom: calc(100vw * 0.12);
   left: 6vw;
   width: 30vw;
   font-weight: 500;
-  font-size: calc(100vw * 0.014);
-  line-height: calc(100vw * 0.02);
+  color: rgb(225, 228, 238);
+  font-size: calc(100vw * 0.024);
+  line-height: calc(100vw * 0.026);
 }
 
 .playButton {
   position: relative;
-  bottom: calc(100vw * 0.55);
+  bottom: calc(100vw * 0.40);
   left: 6vw;
+  height: 42px;
   display: flex;
   gap: 10px
 }
 
 .title {
   position: relative;
-  top: -130px;
+  top: -40px;
   padding-left: 4vw;
-  color: white;
+  color: rgb(235, 227, 227);
   font-weight: bold;
-  font-size: calc(100vw * 0.014);
+  font-size: calc(100vw * 0.025);
+  
+}
+
+
+
+.title1 {
+  position: relative;
+  top: -117px;
+  padding-left: 4vw;
+  color: rgb(235, 227, 227);
+  font-weight: bold;
+  font-size: calc(100vw * 0.022);
+  
 }
 
 .thumbs {
   padding-right: 10px;
   padding-left: 10px;
+  padding-top: 110px;
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
-  gap:2px;
-  row-gap: 20px;
+  gap:10px;
+  column-gap: 10px;
+  row-gap: 40px;
   position: relative;
   top: -120px;
 }
@@ -95,7 +110,7 @@
 }
 
 .thumbnail {
-  width: 19vw;
+  width: 29vw;
   border-radius: 5px;
   transition: transform .4s;
 }
@@ -106,12 +121,12 @@
 }
 
 .modal {
-  max-height: 200px !important;
+  max-height: 600px !important;
 }
 
 .modalContent {
   position: relative;
-  top: -70px;
+  top: -0px;
   width: 100%;
 }
 
@@ -121,36 +136,40 @@
 
 .modalLogo {
   position: fixed;
-  top: 360px;
+  top: -195px;
   left: 6%;
   width:30%;
 }
 
-.modalPlayButton {
+.modalplayButton {
   position: fixed;
-  top: 500px;
+  top: 150px;
   left: 6%;
   display: flex;
   gap: 10px
 }
 
 .details {
+ 
   color: white;
+  top: 0px;
   font-weight: bold;
-  gap: 20px;
-  padding: 20px 0px;
-  display: flex;
-  font-size: 20px;
+  gap: 30px;
+  display: fixed;
+  font-size: 15px;
 }
 
 .movieInfo {
-  display: flex;
-  font-size: 18px;
+  display: fixed;
+  top: 0px;
+  font-size: 14px;
   letter-spacing: 0.5px;
+  display: fixed;
 }
 
 .description{
   padding-left: 50px;
+
   width: 60%;
   color: white;
 }
@@ -158,7 +177,7 @@
 .detailedInfo {
   padding-left: 10%;
   padding-right:5%;
-  padding-top: 60px;
+
   width: 30%;
 }
 
@@ -169,11 +188,33 @@
 
 
 .ownListContent {
-  background-color: #161616;
+  background-color: #16161600;
   height: 100vh;
-  margin-top:150px;
+  margin-top:200px;
 }
 
 .msg {
   margin-left: 5vw;
 }
+
+.creatorscene {
+width: 95vw;
+
+}
+
+.Creatorimg {
+  width: 100%;
+  position:relative;
+  top:120px;
+}
+
+.creatorscene2 {
+  width: 95vw;
+  
+  }
+  
+  .Creatorimg2 {
+    width: 100%;
+    position:relative;
+    top:-50px;
+  }
